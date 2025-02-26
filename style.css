@@ -1,0 +1,32 @@
+#gameboard{
+ height: 300px;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 2px;
+ 
+}
+
+
+
+
+.square{
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 30%;
+    text-align: center;
+    font-size: 80px;
+    
+
+}
+
+
+#controls,#message{
+    text-align: center;
+    margin: 20px 0;
+}
