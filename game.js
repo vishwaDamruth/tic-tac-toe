@@ -106,6 +106,8 @@ const Game = (() =>{
             Gameboard.update(i,"")
         }
         Gameboard.render();
+        gameOver = false;
+        document.querySelector("#message").innerHTML =""
     }
 
     return{
@@ -115,6 +117,8 @@ const Game = (() =>{
     }
  })();
 
+
+ 
 function checkForWin(board){
     const winningCombinations = [
         [0, 1, 2],
